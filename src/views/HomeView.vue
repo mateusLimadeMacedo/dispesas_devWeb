@@ -1,15 +1,19 @@
 <script setup>
 import AppForm from '@/components/forms/AppForm.vue';
+import AppCreateDespesa from '@/components/layout/AppCreateDespesa.vue';
+import AppFilterCategory from '@/components/layout/AppFilterCategory.vue';
 import AppHeader from '@/components/layout/AppHeader.vue';
 import AppLista from '@/components/layout/AppLista.vue';
-
-
 </script>
 
 
 <template>
   <div class="app">
     <AppHeader title="Registro de Atividades" />
+    <div class="filters">
+      <AppFilterCategory />
+      <AppCreateDespesa />
+    </div>
     <div class="layout">
     <AppForm />
     <AppLista />
@@ -31,7 +35,11 @@ import AppLista from '@/components/layout/AppLista.vue';
   gap: 18px;
   margin-top: 18px;
 }
-
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .row {
   display: flex;
   gap: 6px;

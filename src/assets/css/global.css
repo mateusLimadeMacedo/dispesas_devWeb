@@ -3,9 +3,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 20vw;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: #EAEAEA;
 }
 
 
@@ -20,7 +20,7 @@ body {
 
 .header h1 {
   margin: 0;
-  font-size: 18px;
+  font-size: 40px;
 }
 
 .layout {
@@ -53,15 +53,6 @@ body {
   display: flex;
   gap: 6px;
 }
-
-.small-btn {
-  font-size: 11px;
-  padding: 4px 6px;
-  border: 1px solid #999;
-  background: #eee;
-  cursor: pointer;
-}
-
 .table {
   width: 100%;
   border-collapse: collapse;

@@ -29,7 +29,6 @@ import { ref, computed } from 'vue'
             alert('Preencha tudo')
             return
         }
-
         expenses.value.push({
             id: Date.now(),
             title: title.value,
