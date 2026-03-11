@@ -12,6 +12,7 @@ import { ref, computed } from 'vue'
     const value = ref('')
     const category = ref('')
     const filter = ref('all')
+    const abrir = ref(false)
 
     const filtered = computed(() => {
         if (filter.value === 'all') {
@@ -51,6 +52,7 @@ import { ref, computed } from 'vue'
     }
     export function useExpenses(){
     return {
+        abrir,
         expenses,
         title,
         value,

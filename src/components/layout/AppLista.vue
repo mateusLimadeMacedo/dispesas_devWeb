@@ -27,8 +27,6 @@ const {
       </tbody>
 
     </table>
-
-    <div class="summary">Total do dia: {{ total }}</div>
   </div>
 </template>
 
@@ -36,14 +34,22 @@ const {
 .panel {
   background: #fff;
   border: 1px solid #ccc;
-  padding: 12px;
+  padding: 1.5vw;
+  margin-top: 1vw;
+  border: none;
+  border-radius: 0.5vw;
 }
 
 .panel h2 {
   margin: 0 0 8px 0;
-  font-size: 13px;
+  font-size: 1.3vw;
+  color: #475569;
+  margin-bottom: 1vw;
 }
-
+th {
+  font-size: 1vw;
+  color: #475569;
+}
 .input {
   width: 100%;
   padding: 6px;

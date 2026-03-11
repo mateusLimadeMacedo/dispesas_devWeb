@@ -14,10 +14,8 @@ import AppLista from '@/components/layout/AppLista.vue';
       <AppFilterCategory />
       <AppCreateDespesa />
     </div>
-    <div class="layout">
-    <AppForm />
     <AppLista />
-    </div>
+    <AppForm />
   </div>
 </template>
 
