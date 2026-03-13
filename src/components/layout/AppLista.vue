@@ -12,22 +12,15 @@ const {
 
 <template>
   <div class="panel">
-    <h2>Lista do dia</h2>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Descricao</th>
-          <th>Categoria</th>
-          <th>Valor</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <AppItens />
-      </tbody>
-
-    </table>
+    <h1>Lista do dia</h1>
+    <div class="info"> 
+      <h2>Descrição</h2>
+      <h2>Categoria</h2>
+      <h2>Preço</h2>
+    </div>
+    <AppItens />
   </div>
+  
 </template>
 
 <style scoped>
@@ -39,17 +32,21 @@ const {
   border: none;
   border-radius: 0.5vw;
 }
-
-.panel h2 {
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10vw;
+  margin: 0 12vw 0 2vw;
+  font-size: 1rem;
+  color: #94A3B8;
+}
+.panel h1 {
   margin: 0 0 8px 0;
   font-size: 1.3vw;
   color: #475569;
   margin-bottom: 1vw;
 }
-th {
-  font-size: 1vw;
-  color: #475569;
-}
+
 .input {
   width: 100%;
   padding: 6px;
@@ -60,17 +57,5 @@ th {
 
 
 
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 12px;
-}
-
-.table th,
-.table td {
-  border-bottom: 1px solid #eee;
-  padding: 6px;
-  text-align: left;
-}
 
 </style>

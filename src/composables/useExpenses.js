@@ -6,6 +6,7 @@ import { ref, computed } from 'vue'
         { id: 1, title: 'Cafe', value: 6, category: 'food' },
         { id: 2, title: 'Onibus', value: 4.5, category: 'transport' },
         { id: 3, title: 'Lanche', value: 12, category: 'food' },
+        { id: 3, title: 'farmacia', value: 12, category: 'other' },
     ])
 
     const title = ref('')

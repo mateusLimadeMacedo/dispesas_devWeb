@@ -54,6 +54,7 @@ button.fechar {
   height: 2vw;
   border-radius: 100%;
   color: #475569;
+  cursor: pointer;
 }
 h2 {
   display: flex;
@@ -108,6 +109,7 @@ input {
   width: 9vw;
   height: 2.5vw;
   border-radius: 0.2vw;
+  cursor: pointer;
 }
 .limpar {
   border: none;
@@ -115,5 +117,6 @@ input {
   width: 9vw;
   height: 2.5vw;
   border-radius: 0.3vw;
+  cursor: pointer;
 }
 </style>

@@ -23,9 +23,10 @@ button {
     border: none;
     width: 8vw;
     height: 2.5vw;
-    font-size: 20px;
+    font-size: 1rem;
     border-radius: 0.25vw;
     color: #0F172A;
+    cursor: pointer;
 }
 .ativo {
     background-color: #1E3A8A ;
