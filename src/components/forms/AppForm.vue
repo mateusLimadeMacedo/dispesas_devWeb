@@ -90,6 +90,7 @@ p {
 }
 input {
   margin: 0;
+  width: 100%;
   border: none;
   height: 2.5vw;
   padding: 1vw;
@@ -148,7 +149,7 @@ input {
     width: 28px;
     height: 28px;
   }
-}
+
 
 div.form p{
   font-size: 1.2rem;
@@ -176,6 +177,8 @@ input{
     height: 5vh;
     font-size: 0.8rem;
     border-radius: 4px;
+}
+
 }
 
 </style>
