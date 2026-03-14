@@ -58,16 +58,18 @@ const {
 @media (max-width: 650px){
 
   .panel{
-    margin: 4vh 4vw;
+    margin: 2vh 2vw;
     border-radius: 8px;
+    padding: 2vw 4vw 5vw 4vw;
   }
   .panel h1{
     font-size: 1.2rem;
     display: flex;
-    justify-content: center;
     margin: 3vw;
   }
-
+  .info{
+    display: none;
+  }
 }
 
 

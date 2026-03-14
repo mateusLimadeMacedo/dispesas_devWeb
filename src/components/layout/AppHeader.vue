@@ -74,6 +74,9 @@ svg {
   .summary h2{
     font-size: 1.1rem;
   }
+  svg {
+    margin: 0vw 2vw 15vw 0vw;
+  }
 }
 
 

@@ -55,6 +55,8 @@ button.fechar {
   border-radius: 100%;
   color: #475569;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 h2 {
   display: flex;
