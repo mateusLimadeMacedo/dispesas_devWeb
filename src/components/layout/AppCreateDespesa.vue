@@ -39,18 +39,33 @@ button div p {
 
 @media (max-width: 650px){
   button{
-    width: 50vw;
-    height: 6vh;
-    border-radius: 4px;
-    margin: 2vh 1vw 0 0 ;
-  }
-  button div p{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 
-    font-size: 0.8rem;
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    margin: 0;
+
     display: flex;
-    width: 50%;
-
+    align-items: center;
+    justify-content: center;
   }
 
+  button div{
+    gap: 0;
+  }
+
+  button div p{
+    display: none;
+  }
+
+  button svg{
+    width: 28px;
+    height: 28px;
+  }
 }
+  
 </style>

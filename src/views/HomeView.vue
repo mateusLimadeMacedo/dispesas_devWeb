@@ -29,7 +29,6 @@ import AppLista from '@/components/layout/AppLista.vue';
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
 }
 .row {
   display: flex;
@@ -43,6 +42,10 @@ import AppLista from '@/components/layout/AppLista.vue';
 
 .app{
   padding: 4px;
+}
+
+.filters{
+  flex-direction: column;
 }
 
 

@@ -16,7 +16,7 @@ const {
 div.filter {
     display: flex;
     gap: 1vw;
-    margin-top: 2vw;
+    margin-top: 4vw;
 }
 button {
     background-color: white;
@@ -43,7 +43,6 @@ button {
 
   div.filter{
    gap: 2vw;
-    margin: 3vh 1vw;
   }
 }
 </style>
