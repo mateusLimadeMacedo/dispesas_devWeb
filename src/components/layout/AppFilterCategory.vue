@@ -32,4 +32,18 @@ button {
     background-color: #1E3A8A ;
     color: white;
 }
+
+@media (max-width: 650px){
+  button{
+    width: 22vw;
+    height: 5vh;
+    font-size: 0.8rem;
+    border-radius: 4px;
+  }
+
+  div.filter{
+   gap: 2vw;
+    margin: 3vh 1vw;
+  }
+}
 </style>

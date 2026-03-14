@@ -7,9 +7,6 @@ import { useExpenses } from '@/composables/useExpenses'
 const {
   total
 } = useExpenses()
-const {
-  filter
-} = useExpenses()
 </script>
 
 
@@ -21,14 +18,14 @@ const {
     <h1>R${{ total.toFixed(2) }}</h1>
   </div>
   <div class="direita">
-    <svg xmlns="http://www.w3.org/2000/svg" 
-       width="30" 
-       height="30" 
-       viewBox="0 0 24 24" 
-       fill="none" 
-       stroke="currentColor" 
-       stroke-width="2" 
-       stroke-linecap="round" 
+    <svg xmlns="http://www.w3.org/2000/svg"
+       width="30"
+       height="30"
+       viewBox="0 0 24 24"
+       fill="none"
+       stroke="currentColor"
+       stroke-width="2"
+       stroke-linecap="round"
        stroke-linejoin="round">
 
     <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"/>
@@ -40,16 +37,6 @@ const {
   </svg>
   </div>
 </div>
-<!--<div class="header">
-            <h1>Controle de Gastos Rapido</h1>
-            <div>
-                <button class="small-btn" @click="filter = 'all'">Tudo</button>
-                <button class="small-btn" @click="filter = 'food'">Comida</button>
-                <button class="small-btn" @click="filter = 'transport'">Transporte</button>
-                <button class="small-btn" @click="filter = 'other'">Outros</button>
-            </div>
-        </div>
-        -->
 </template>
 
 <style scoped>
@@ -79,9 +66,17 @@ const {
 svg {
   color: #475569;
 }
-.header h1 {
-  margin: 0;
-  font-size: 18px;
+@media (max-width: 650px){
+  .header{
+    margin: 0 0 2vw 0 ;
+    border-radius: 8px;
+  }
+  .summary h2{
+    font-size: 1.1rem;
+  }
 }
+
+
+
 
 </style>

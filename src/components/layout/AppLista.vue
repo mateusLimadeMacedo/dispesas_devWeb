@@ -6,21 +6,21 @@ import { useExpenses } from '@/composables/useExpenses'
 
 
 const {
-  total
+
 } = useExpenses()
 </script>
 
 <template>
   <div class="panel">
     <h1>Lista do dia</h1>
-    <div class="info"> 
+    <div class="info">
       <h2>Descrição</h2>
       <h2>Categoria</h2>
       <h2>Preço</h2>
     </div>
     <AppItens />
   </div>
-  
+
 </template>
 
 <style scoped>
@@ -53,6 +53,21 @@ const {
   font-size: 12px;
   border: 1px solid #999;
   margin-bottom: 6px;
+}
+
+@media (max-width: 650px){
+
+  .panel{
+    margin: 4vh 4vw;
+    border-radius: 8px;
+  }
+  .panel h1{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+  }
+
 }
 
 

@@ -82,7 +82,7 @@ h2 {
   width: 25vw;
 }
 div.form {
-  margin: 1vw 0.25vw 1vw 0.25vw;
+  margin: 1vw 0.25vw;
 }
 p {
   margin: 0 0.1vw 0.3vw 0.5vw;
@@ -119,4 +119,63 @@ input {
   border-radius: 0.3vw;
   cursor: pointer;
 }
+
+
+@media (max-width: 650px) {
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 4vh;
+
+  }
+
+  .panel {
+    width: 90%;
+    padding: 18px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .salvar,
+  .limpar {
+    width: 100%;
+  }
+
+  button.fechar {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+div.form p{
+  font-size: 1.2rem;
+  margin: 4vw 0 1.5vw;
+
+}
+
+input{
+  width: 100%;
+  height: 6vh;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.salvar{
+   width: 100%;
+    height: 5vh;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    margin: 4vh 0 1vh;
+}
+
+.limpar{
+  width: 100%;
+    height: 5vh;
+    font-size: 0.8rem;
+    border-radius: 4px;
+}
+
 </style>

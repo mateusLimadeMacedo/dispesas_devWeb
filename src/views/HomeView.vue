@@ -18,8 +18,6 @@ import AppLista from '@/components/layout/AppLista.vue';
     <AppForm />
   </div>
 </template>
-
-
 <style scoped>
  .app {
   max-width: 1200px;
@@ -27,20 +25,27 @@ import AppLista from '@/components/layout/AppLista.vue';
   padding: 24px;
 }
 
-.layout {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 18px;
-  margin-top: 18px;
-}
 .filters {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .row {
   display: flex;
   gap: 6px;
 }
 
+
+
+
+@media (max-width: 650px){
+
+.app{
+  padding: 4px;
+}
+
+
+
+}
 </style>
